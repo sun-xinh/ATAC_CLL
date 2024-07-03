@@ -2,23 +2,19 @@
 
 This repository contains resources and instructions for performing ATAC-seq analysis on Chronic Lymphocytic Leukemia (CLL) samples using the Terra platform.
 
-
-
 ## Overview
 
 ATAC-seq analysis on Chronic Lymphocytic Leukemia (CLL) samples using the Terra platform.
 
-
-
 ## Contents
 
-### Data Folder
+### `Data` Folder
 
 The `data` folder contains a TSV file formatted for upload into the Terra platform. This file includes the necessary metadata and paths to the input data for the workflow.
 
-### JSON Folder
+### `JSON` Folder
 
-Due to the limitations of the WDL (Workflow Description Language) used in this project, variables cannot be dynamically assigned as inputs. Therefore, we have created eight JSON files, one for each sample.
+Due to the limitations of the WDL (Workflow Description Language) used in this project, variables cannot be dynamically assigned as inputs. Therefore, we have created eight JSON files in `json` foler, one for each sample.
 
 ### How to Use
 
@@ -35,23 +31,15 @@ Due to the limitations of the WDL (Workflow Description Language) used in this p
    
    - Fine-tune parameters, such as incorporating a blacklist to filter out problematic regions, for improved results.
 
-
-
 ## data folder
 
 a tsv file to upload into Terra platform
 
-
-
 ## Json folder
-
-
 
 Since this WDL seems not allow to use variable as input, We created 8 json file for each samples.
 
 How to use: Just upload the json files in workflow input section, and save and run for result.
-
-
 
 ## Future plan
 
