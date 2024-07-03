@@ -31,18 +31,4 @@ Due to the limitations of the WDL (Workflow Description Language) used in this p
    
    - Fine-tune parameters, such as incorporating a blacklist to filter out problematic regions, for improved results.
 
-## data folder
-
-a tsv file to upload into Terra platform
-
-## Json folder
-
-Since this WDL seems not allow to use variable as input, We created 8 json file for each samples.
-
-How to use: Just upload the json files in workflow input section, and save and run for result.
-
-## Future plan
-
-1. Should we use more cpu to accelerate the process?
-
-2. Parameter adjustment for better result, like blacklist
+# 
