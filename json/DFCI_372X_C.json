@@ -1,0 +1,46 @@
+{
+    "atac.pipeline_type" : "atac",
+    "atac.align_only" : false,
+    
+    "atac.paired_end" : true,
+    "atac.paired_ends" : [true, true],
+
+    "atac.auto_detect_adapter" : true,
+
+    "atac.genome_tsv" : "gs://encode-pipeline-genome-data/genome_tsv/v4/hg38.terra.tsv",
+    "atac.fastqs_rep1_R1": [
+        "gs://fc-62d3d59a-67c6-466b-99eb-77396eab10ab/ATAC_Data/DFCI_372X_C/DFCI_372X_C_CKDL240008540-1A_H5NTWDSXC_L2_1.fq"
+    ],
+    "atac.fastqs_rep1_R2": [
+        "gs://fc-62d3d59a-67c6-466b-99eb-77396eab10ab/ATAC_Data/DFCI_372X_C/DFCI_372X_C_CKDL240008540-1A_H5NTWDSXC_L2_2.fq"
+    ],
+    
+    "atac.multimapping" : 4,
+
+    "atac.mapq_thresh" : 30,
+    "atac.dup_marker" : "picard",
+    "atac.no_dup_removal" : false,
+
+    "atac.subsample_reads" : 0,
+    "atac.xcor_subsample_reads" : 25000000,
+
+    "atac.cap_num_peak" : 300000,
+    "atac.pval_thresh" : 0.01,
+    "atac.smooth_win" : 150,
+
+    "atac.enable_idr" : true,
+    "atac.idr_thresh" : 0.05,
+
+
+    "atac.filter_chrs" : ["chrM", "MT"],
+
+    "atac.enable_preseq" : false,
+    "atac.enable_compare_to_roadmap" : false,
+    "atac.enable_tss_enrich" : true,
+    "atac.enable_gc_bias" : true,
+
+
+    "atac.enable_xcor" : true,
+    "atac.title": "DFCI_372X_C (pair_end)",
+    "atac.description" : "ATAC-seq on CLL "
+}
