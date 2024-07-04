@@ -9,10 +9,10 @@
 
     "atac.genome_tsv" : "gs://encode-pipeline-genome-data/genome_tsv/v4/hg38.terra.tsv",
     "atac.fastqs_rep1_R1": [
-        "gs://fc-62d3d59a-67c6-466b-99eb-77396eab10ab/ATAC_Data/DFCI_500B_C/DFCI_500B_C_CKDL240008536-1A_H5NTWDSXC_L2_1.fq"
+        "gs://fc-62d3d59a-67c6-466b-99eb-77396eab10ab/ATAC_Data/DFCI_541P_C/DFCI_541P_C_CKDL240008539-1A_H5NTWDSXC_L2_1.fq"
     ],
     "atac.fastqs_rep1_R2": [
-        "gs://fc-62d3d59a-67c6-466b-99eb-77396eab10ab/ATAC_Data/DFCI_500B_C/DFCI_500B_C_CKDL240008536-1A_H5NTWDSXC_L2_2.fq"
+        "gs://fc-62d3d59a-67c6-466b-99eb-77396eab10ab/ATAC_Data/DFCI_541P_C/DFCI_541P_C_CKDL240008539-1A_H5NTWDSXC_L2_2.fq"
     ],
     
     "atac.multimapping" : 4,
@@ -81,6 +81,6 @@
 
 
     "atac.enable_xcor" : true,
-    "atac.title": "DFCI_500B_C (pair_end)",
+    "atac.title": "DFCI_541P_C (pair_end)",
     "atac.description" : "ATAC-seq on CLL "
 }
